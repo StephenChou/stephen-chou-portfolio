@@ -4,8 +4,6 @@ import Image from 'next/image'
 
 export default function AboutSection() {
 
-    //mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl
-
     return(
         <section id="home">
             <div className="flex flex-col text-center items-center justify-center bg-[#18181b] text-[#f4f4f5] px-4 sm:px-6 space-x-5 space-y-5 h-[55vh]">

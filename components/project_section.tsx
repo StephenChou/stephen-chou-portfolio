@@ -13,9 +13,9 @@ const PROJECTS: Array<ProjectCard> = [
     },
     {
         img: "nvidia_img.png",
-        title: "Nvidia digital vibrance detector",
-        tech_stack: "C/C++",
-        description: "Detects if a specific program/game is running and sets the digital vibrance appropriately.",
+        title: "Nvidia Digital Vibrance Setter",
+        tech_stack: "C/C++, Visual Studio",
+        description: "Given a program/game like CSGO, automatically set desired digital vibrance on open through NvAPI (Nvidia's GPU API).",
         github_url: "https://github.com/StephenChou/nvidia_digital_vibrance",
         proj_url: ""
     }
