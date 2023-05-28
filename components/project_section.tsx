@@ -27,7 +27,6 @@ export default function ProjectSection() {
             
             <div className="mt-20 mb-8">
                 <h1 className="font-bold text-4xl">Projects</h1>
-                <p className="text-lg">Some personal projects I&pos;ve worked on over the years.</p>
             </div>
             <div className="md:grid md:grid-cols-2 mx-5">
                 {PROJECTS.map((project, idx) => {
