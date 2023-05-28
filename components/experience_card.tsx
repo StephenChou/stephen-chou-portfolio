@@ -10,7 +10,7 @@ export default interface ExperienceCard {
     description: string,
 }
 
-export default function({img, title, date, tech_stack, description}: ExperienceCard) {
+export default function ExperienceCard({img, title, date, tech_stack, description}: ExperienceCard) {
     return(
             <div className="bg-white rounded-lg px-6 py-6 my-8 transform hover:scale-105 duration-100 hover:shadow-lg ">
             <div className="pb-4 relative bottom-50">
